@@ -6,7 +6,7 @@ use warnings;
 use Carp;
 use Exporter;
 use vars qw($VERSION @EXPORT @ISA);
-$VERSION = '1.0.1';
+$VERSION = '1.0.2';
 @ISA = ('Exporter');
 @EXPORT = qw(dow);
 
@@ -36,7 +36,7 @@ PerpetualCalendar
     use diagnostics;
     use strict;
     use warnings;
-    use PerpCal;
+    use DateTime::PerpetualCalendar;
     use Getopt::Long;
 
     my ($year, $month, $mday);

@@ -3,7 +3,7 @@
 use diagnostics;
 use strict;
 use warnings;
-use PerpCal;
+use DateTime::PerpetualCalendar;
 use Getopt::Long;
 
 my ($year, $month, $mday);
