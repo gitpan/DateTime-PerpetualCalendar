@@ -1,0 +1,7 @@
+To install DateTime::PerpetualCalendar
+
+perl Makefile.PL
+make
+make test
+make install
+
